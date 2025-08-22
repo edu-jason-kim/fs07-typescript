@@ -37,3 +37,9 @@ function addToCart5(productId: string, quantity?: number, price: number): boolea
   // 성공 했다고 가정
   return true;
 }
+
+// 화살표 함수로 구현
+const addToCart6 = (productId: string, quantity = 1): boolean => {
+  // 성공 했다고 가정
+  return true;
+}
